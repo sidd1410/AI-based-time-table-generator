@@ -103,7 +103,7 @@ export default function ChatPage() {
         },
         body: JSON.stringify({
           messages: aiMessages,
-          model: "llama-3.2-90b-vision-preview",
+          model: "mistral-saba-24b",
           temperature: 0.7,
           max_tokens: 1024,
           top_p: 1
